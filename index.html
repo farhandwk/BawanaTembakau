@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tembakau</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="containerAll">
+        <header class="header-landing">
+            <nav class="sidebar-landing">
+                <div class="containerSidebar-landing">
+                    <img src="SRC/Close_round_fill.png" class="closesidebar-landing">
+                    <h1 class="judulSidebar-landing">Bawana</h1>
+                    <div class="lineSidebar-landing"></div>
+                    <h4 class="isiSidebar-landing" onclick="opententangkamiSidebar()">Tentang Kami</h4>
+                    <div class="subisiSidebar-landing" id="tentangkamiSidebar-landing">
+                        <li>Profil Perusahaan</li>
+                        <li>Produksi</li>
+                        <li>Pemasaran</li>
+                    </div>
+                    <div class="lineSidebar-landing"></div>
+                    <h4 class="isiSidebar-landing" onclick="openhubungikamiSidebar()">Hubungi Kami</h4>
+                    <div class="subisiSidebar-landing" style="margin-left: -40%;" id="hubungikamiSidebar-landing">
+                        <li>Whatsapp </li>
+                        <li>Produksi</li>
+                        <li>Pemasaran</li>
+                    </div>
+                    <div class="lineSidebar-landing"></div>
+                    <h4 class="isiSidebar-landing" onclick="openlokasiSidebar()">Lokasi</h4>
+                    <div class="subisiSidebar-landing" style="margin-left:0;" id="lokasiSidebar-landing">
+                        <img src="SRC/imgLokasi.jpg" class="imgSidebar-landing">
+                    </div>
+                    <div class="decorSidebar-landing">
+                        <img src="SRC/logo tembakau no background.png" class="imgdecorSidebar-landing">
+                        <h1 class="p1decorSidebar-landing">Real Taste of</h1>
+                        <h1 class="p2decorSidebar-landing">Nusantara</h1>
+                    </div>
+            </nav>
+            <img src="SRC/logo tembakau no background.png" class="imgHeader-landing" />
+            <h1 class="judul-landing">Bawana</h1>
+            <nav class="nav-landing">
+                <li onmouseover="shownavTentangkami()" onmouseout="closenavTentangkami()">
+                    Tentang Kami
+                    <ul class="navTentangkami-landing">
+                        <li>Profil Perusahaan</li>
+                        <li>Produksi</li>
+                        <li>Pemasaran</li>
+                    </ul>
+                </li>
+                <li onmouseover="shownavHubungikami()" onmouseout="closenavHubungikami()">
+                    Hubungi Kami
+                    <ul class="navHubungikami-landing">
+                        <li>Whatsapp</li>
+                        <li>Tiktok</li>
+                        <li>Instagram</li>
+                    </ul>
+                </li>
+                <li onmouseover="shownavLokasi()" onmouseout="closenavLokasi()">
+                    Lokasi
+                    <img src="SRC/imgLokasi.jpg" class="navLokasi-landing" />
+                </li>
+            </nav>
+        </header>
+        <section class="container-landing">
+            <p class="p-landing">Menghadirkan<br />Rasa Asli<br />Nusantara</p>
+            <div class="containerBtn-landing">
+                <button class="btn-landing">
+          Shop Now
+          <i class="fa fa-chevron-right" id="chevronShopnow-landing"></i>
+        </button>
+            </div>
+            <div class="containerLamsiPaksi-landing">
+                <button class="btnLP-landing">Lamsi</button>
+                <button class="btnLP-landing">Paksi</button>
+            </div>
+            <p class="p2-landing">Temanggung@2024</p>
+        </section>
+        <section class="container-tembakau">
+            <section class="container1-tembakau">
+                <img src="SRC/foto1.jpg" class="img1 img-tembakau" />
+                <p class="p-tembakau">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum semper lacus sed blandit. Cras dignissim imperdiet lacus, sed semper urna luctus vitae. Sed risus mauris, imperdiet eget blandit
+                </p>
+            </section>
+            <section class="container2-tembakau">
+                <img src="SRC/foto2.jpg" class="img2 img-tembakau" />
+                <p class="p-tembakau">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum semper lacus sed blandit. Cras dignissim imperdiet lacus, sed semper urna luctus vitae. Sed risus mauris, imperdiet eget blandit
+                </p>
+            </section>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
